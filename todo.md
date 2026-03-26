@@ -7,3 +7,10 @@
 - [ ] Connect the primary CTA to WhatsApp: `https://wa.me/972528483048`.
 - [ ] Emphasize Israel-only service scope, Rosh HaAyin clinic presence, and online sessions.
 - [ ] Review responsiveness, polish interactions, and prepare the final checkpoint and delivery.
+- [ ] Review https://eitanazaria.co.il/ for structure, messaging, section hierarchy, and conversion patterns.
+- [ ] Review https://beyourbest.co.il/ for design system, trust signals, audience framing, and call-to-action patterns.
+- [ ] Identify what makes both reference sites effective and what should be avoided to keep MindPro distinct.
+- [ ] Redesign the MindPro hero, storytelling flow, and section rhythm based on benchmark insights.
+- [ ] Strengthen authority, trust, and conversion sections without copying either website.
+- [ ] Re-test the upgraded Hebrew RTL site.
+- [ ] Save a new checkpoint for the upgraded version.
