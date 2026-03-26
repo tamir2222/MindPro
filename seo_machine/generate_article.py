@@ -431,6 +431,15 @@ def save_article(article_md: str, html_content: str, meta: dict, topic: dict) ->
     
     return md_path
 
+def sync_to_public():
+    """Sync generated articles to client/public/articles for the React app."""
+    try:
+        from sync_to_public import sync
+        sync()
+    except Exception as e:
+        print(f"⚠️  Sync to public failed: {e}")
+
+
 def update_articles_index(meta: dict, topic: dict):
     """Update the articles index JSON file."""
     index_path = OUTPUT_DIR / "index.json"
@@ -491,6 +500,7 @@ def main():
     # Step 6: Save files
     saved_path = save_article(article_md, html_content, meta, topic)
     update_articles_index(meta, topic)
+    sync_to_public()
     
     print(f"\n✅ Article generated successfully!")
     print(f"📄 Markdown: {saved_path}")
