@@ -440,6 +440,16 @@ def sync_to_public():
         print(f"⚠️  Sync to public failed: {e}")
 
 
+def regenerate_sitemap():
+    """Regenerate sitemap.xml after new article is published."""
+    try:
+        from generate_sitemap import save_sitemap
+        path = save_sitemap("https://mindpro-ackphuam.manus.space")
+        print(f"🗺️  Sitemap updated: {path}")
+    except Exception as e:
+        print(f"⚠️  Sitemap generation failed: {e}")
+
+
 def update_articles_index(meta: dict, topic: dict):
     """Update the articles index JSON file."""
     index_path = OUTPUT_DIR / "index.json"
@@ -501,6 +511,7 @@ def main():
     saved_path = save_article(article_md, html_content, meta, topic)
     update_articles_index(meta, topic)
     sync_to_public()
+    regenerate_sitemap()
     
     print(f"\n✅ Article generated successfully!")
     print(f"📄 Markdown: {saved_path}")

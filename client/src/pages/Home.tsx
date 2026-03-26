@@ -6,6 +6,7 @@ Typography should feel more refined and less cold than the previous iteration.
 */
 
 import { Button } from "@/components/ui/button";
+import { Link } from "wouter";
 import {
   ArrowLeft,
   Brain,
@@ -179,6 +180,7 @@ export default function Home() {
             <a href="#services" className="transition hover:text-[#f7f0e3]">שירותים</a>
             <a href="#method" className="transition hover:text-[#f7f0e3]">איך זה עובד</a>
             <a href="#authority" className="transition hover:text-[#f7f0e3]">ניסיון מקצועי</a>
+            <Link href="/articles" className="transition hover:text-[#f7f0e3]">מאמרים</Link>
             <a href="#contact" className="transition hover:text-[#f7f0e3]">יצירת קשר</a>
           </nav>
 

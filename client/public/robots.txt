@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+Allow: /articles
+Allow: /articles/
+
+Disallow: /__manus__/
+
+Sitemap: https://mindpro-ackphuam.manus.space/sitemap.xml
