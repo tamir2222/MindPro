@@ -14,3 +14,10 @@
 - [ ] Strengthen authority, trust, and conversion sections without copying either website.
 - [ ] Re-test the upgraded Hebrew RTL site.
 - [ ] Save a new checkpoint for the upgraded version.
+- [ ] Retrieve the MindPro logo from the Google Drive folder and prepare it for website use.
+- [ ] Research warmer premium color directions suitable for a psychology and performance brand in Hebrew RTL.
+- [ ] Select more elegant and popular Hebrew-friendly font pairings for headings and body text.
+- [ ] Redesign the global color system to feel warmer, calmer, and more inviting.
+- [ ] Integrate the official MindPro logo into the header and branded sections.
+- [ ] Refine the homepage visual styling with stronger typography and warmer accents.
+- [ ] Re-test the updated design and save a new checkpoint.
