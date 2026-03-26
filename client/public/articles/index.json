@@ -1,6 +1,96 @@
 [
   {
     "date": "2026-03-26",
+    "title": "\"הכל בראש\" — אז למה אנחנו לא מתאמנים על זה? מדריך לאימון מנטלי אמיתי",
+    "slug": "mental-training-in-sport-true-guide",
+    "meta_description": "גלה מדוע אימון מנטלי בספורט בישראל חשוב, כיצד לשלב כלים מנטליים ואיך MindPro מובילה את התחום.",
+    "primary_keyword": "אימון מנטלי בספורט",
+    "audience": "ספורטאים, הורים ומאמנים",
+    "reading_time": 5
+  },
+  {
+    "date": "2026-03-25",
+    "title": "קשב — המשאב הכי חשוב שלך כספורטאי (וכולם מתעלמים ממנו)",
+    "slug": "kishav-in-sport-the-most-important-resource-for-athletes",
+    "meta_description": "גלה כיצד שליטה בקשב בספורט משפיעה על ביצועים ואיך MindPro מובילה אימון מנטלי בישראל.",
+    "primary_keyword": "קשב בספורט",
+    "audience": "ספורטאים ומאמנים",
+    "reading_time": 5
+  },
+  {
+    "date": "2026-03-24",
+    "title": "מנטרות לא עובדות: מה כן עובד בדיבור עצמי לספורטאים",
+    "slug": "self-talk-sport-athletes-effective-methods",
+    "meta_description": "גלה מדוע מנטרות ספורט כלליות לא יעילות ואיך דיבור עצמי מותאם אישית משפר ביצועים בספורט בישראל.",
+    "primary_keyword": "דיבור עצמי ספורטאים",
+    "audience": "ספורטאים ומאמנים",
+    "reading_time": 5
+  },
+  {
+    "date": "2026-03-23",
+    "title": "מה קורה כשנחנקים בתחרות? המדע מאחורי הצ'וקינג וכלים להתמודדות",
+    "slug": "choking-in-sport-understanding-and-managing-performance-anxiety",
+    "meta_description": "מה גורם לצ'וקינג בספורט? למד על המדע מאחורי חנק בתחרות וכלים להתמודדות עם לחץ בספורט בישראל.",
+    "primary_keyword": "צ'וקינג בספורט",
+    "audience": "ספורטאים",
+    "reading_time": 5
+  },
+  {
+    "date": "2026-03-22",
+    "title": "איך ג'וקוביץ' מאמן את הראש: מיינדפולנס ושליטה בקשב לספורטאים",
+    "slug": "djokovic-mental-training-mindfulness-attentional-control",
+    "meta_description": "למדו כיצד נובאק ג'וקוביץ' משתמש במיינדפולנס ושליטה בקשב לאימון מנטלי ומפתח חוסן מנטלי בספורט.",
+    "primary_keyword": "אימון מנטלי ג'וקוביץ'",
+    "audience": "ספורטאים ומאמנים",
+    "reading_time": 5
+  },
+  {
+    "date": "2026-03-21",
+    "title": "דה-קטסטרופיזציה: מה באמת יקרה אם תפסיד?",
+    "slug": "decatastriphication-overcoming-sport-loss-fear",
+    "meta_description": "למדו כיצד דה-קטסטרופיזציה מסייעת לספורטאים בישראל להתמודד עם חרדת תחרות ופחד מהפסד בספורט בעזרת טכניקות CBT מקצועיות.",
+    "primary_keyword": "פחד מהפסד בספורט",
+    "audience": "ספורטאים ומאמנים",
+    "reading_time": 5
+  },
+  {
+    "date": "2026-03-20",
+    "title": "שליטה עצמית מול אגו: הסוד של ספורטאים שממשיכים להתפתח",
+    "slug": "self-control-vs-ego-motivation-sports-israel",
+    "meta_description": "גלה כיצד שליטה עצמית ומוטיבציה פנימית מסייעות לספורטאים ישראלים להתפתח ולהצליח לאורך זמן",
+    "primary_keyword": "מוטיבציה פנימית ספורטאים",
+    "audience": "ספורטאים הישגיים",
+    "reading_time": 5
+  },
+  {
+    "date": "2026-03-19",
+    "title": "למה ספורטאים צעירים מפסיקים? 3 צרכים פסיכולוגיים שחייבים לספק",
+    "slug": "why-kids-quit-sports-3-psychological-needs",
+    "meta_description": "גלה למה ילדים מפסיקים ספורט ומהם 3 הצרכים הפסיכולוגיים הבסיסיים לשימור מוטיבציה פנימית בספורטאים צעירים בישראל.",
+    "primary_keyword": "למה ילדים מפסיקים ספורט",
+    "audience": "הורים לספורטאים צעירים",
+    "reading_time": 5
+  },
+  {
+    "date": "2026-03-18",
+    "title": "הורים ומאמנים: איזה אקלים מוטיבציוני אתם יוצרים לילדים?",
+    "slug": "motivational-climate-parents-coaches-children-sports",
+    "meta_description": "איך ליצור אקלים מוטיבציוני בספורט לילדים? המדריך להורים ומאמני ספורט בישראל עם טיפים מעשיים וידע מחקרי.",
+    "primary_keyword": "אקלים מוטיבציוני בספורט",
+    "audience": "הורים ומאמנים",
+    "reading_time": 5
+  },
+  {
+    "date": "2026-03-17",
+    "title": "חמלה עצמית בספורט: למה זה בסדר לפחד לפני תחרות",
+    "slug": "self-compassion-in-sports-managing-fear-before-competition",
+    "meta_description": "למה פחד לפני תחרות הוא נורמלי וכיצד חמלה עצמית בספורט מסייעת לחוסן מנטלי ושיפור ביצועים.",
+    "primary_keyword": "חמלה עצמית בספורט",
+    "audience": "ספורטאים ומאמנים",
+    "reading_time": 5
+  },
+  {
+    "date": "2026-03-26",
     "title": "ילד שמפסיד ובוכה: איך הורים יכולים לעזור לספורטאי צעיר להתמודד עם כישלון",
     "slug": "young-athletes-failure-coping-parents",
     "meta_description": "כיצד הורים לספורטאים צעירים יכולים לסייע לילד להתמודד עם כישלון וכאב בכי. כלים וחוסן מנטלי מפסיכולוגיית ספורט נוער בישראל.",
