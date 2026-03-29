@@ -140,11 +140,16 @@ export default function Articles() {
                         {/* Article Image */}
                         <div className="relative h-48 overflow-hidden bg-[rgba(34,36,30,0.8)]">
                           <img
-                            src={`/articles/${article.slug}.webp`}
+                            src={`/articles/${article.slug}.png`}
                             alt={article.title}
                             className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105 saturate-[0.9] sepia-[0.08]"
                             onError={(e) => {
-                              (e.target as HTMLImageElement).style.display = "none";
+                              const img = e.target as HTMLImageElement;
+                              if (img.src.endsWith('.png')) {
+                                img.src = `/articles/${article.slug}.webp`;
+                              } else {
+                                img.style.display = 'none';
+                              }
                             }}
                           />
                           <div className="absolute inset-0 bg-gradient-to-t from-[rgba(24,26,22,0.7)] to-transparent" />

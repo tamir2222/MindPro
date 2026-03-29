@@ -173,11 +173,16 @@ export default function ArticleReader() {
             className="mb-8 overflow-hidden rounded-[1.5rem]"
           >
             <img
-              src={`/articles/${slug}.webp`}
+              src={`/articles/${slug}.png`}
               alt={meta?.title}
               className="h-64 w-full object-cover saturate-[0.9] sepia-[0.08] sm:h-80"
               onError={(e) => {
-                (e.target as HTMLImageElement).parentElement!.style.display = "none";
+                const img = e.target as HTMLImageElement;
+                if (img.src.endsWith('.png')) {
+                  img.src = `/articles/${slug}.webp`;
+                } else {
+                  img.parentElement!.style.display = 'none';
+                }
               }}
             />
           </motion.div>
