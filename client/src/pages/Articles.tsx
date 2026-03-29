@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { ArrowLeft, BookOpen, Calendar, Clock, Tag } from "lucide-react";
+import { ArrowLeft, BookOpen, Calendar, Clock, Tag, User } from "lucide-react";
 import { useEffect, useState } from "react";
 import { Link } from "wouter";
 
@@ -164,7 +164,11 @@ export default function Articles() {
 
                         {/* Content */}
                         <div className="flex flex-1 flex-col p-6">
-                          <div className="mb-3 flex items-center gap-4 text-xs text-[#b0a898]">
+                          <div className="mb-3 flex flex-wrap items-center gap-4 text-xs text-[#b0a898]">
+                            <span className="flex items-center gap-1.5">
+                              <User className="h-3.5 w-3.5" />
+                              תמיר בר
+                            </span>
                             <span className="flex items-center gap-1.5">
                               <Calendar className="h-3.5 w-3.5" />
                               {formatDate(article.date)}

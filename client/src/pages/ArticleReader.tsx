@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { marked } from "marked";
-import { ArrowRight, Calendar, Clock, MessageCircle, Tag } from "lucide-react";
+import { ArrowRight, Calendar, Clock, MessageCircle, Tag, User } from "lucide-react";
 import { useEffect, useState } from "react";
 import { Link, useParams } from "wouter";
 
@@ -206,7 +206,11 @@ export default function ArticleReader() {
               {meta?.title}
             </h1>
 
-            <div className="mb-8 flex items-center gap-5 text-sm text-[#b0a898]">
+            <div className="mb-8 flex flex-wrap items-center gap-5 text-sm text-[#b0a898]">
+              <span className="flex items-center gap-1.5">
+                <User className="h-4 w-4" />
+                תמיר בר
+              </span>
               <span className="flex items-center gap-1.5">
                 <Calendar className="h-4 w-4" />
                 {meta ? formatDate(meta.date) : ""}
